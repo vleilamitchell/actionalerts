@@ -1,0 +1,28 @@
+{
+  "name": "actionalerts",
+  "version": "1.0.0",
+  "description": "Action alert web system written in Node.js with Facebook Login and passthrough as well as post scheduling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vleilamitchell/actionalerts.git"
+  },
+  "keywords": [
+    "activism",
+    "politics",
+    "alert",
+    "schduling"
+  ],
+  "author": "Victoria Mitchell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vleilamitchell/actionalerts/issues"
+  },
+  "homepage": "https://github.com/vleilamitchell/actionalerts#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
