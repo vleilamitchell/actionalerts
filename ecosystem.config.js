@@ -10,7 +10,7 @@ module.exports = {
       ref: 'origin/master',
       key: '~/.ssh/actionalerts.pem',
       repo: 'git@github.com:vleilamitchell/actionalerts.git',
-      path: '/home/ec2-user/server',
+      path: '~/server',
       'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
